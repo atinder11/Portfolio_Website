@@ -1,0 +1,212 @@
+<html>
+
+<head>
+    <title>
+        Atinder Kumar
+
+    </title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+
+                <ul>
+                    <li> <a href="#header">Home</a> </li>
+                    <li> <a href="#about">About</a> </li>
+                    <li> <a href="#services">Projects</a> </li>
+                    <li> <a href="https://drive.google.com/file/d/1y8AbD18Hni1J3rOP2-GW8pYPHRfLfPjo/view?usp=sharing "target="_blank">Resume</a> </li>
+                    <li> <a href="#contact">Contact</a> </li>
+
+                </ul>
+            </nav>
+            <section class="firstsec">
+                <div class="leftsec">
+                  Hi, My name is
+                  <div><span class="purple">Atinder</span> & I'm a</div>
+                  <span id="element"></span>
+                </div>
+
+              </section>
+        </div>
+
+    </div>
+    <!---------------about------------- --->
+    <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="images/logo.jpg" alt="img" />
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub"><center>About Me</center></h1>
+              <p><br>
+                I'm a 3rd-year B.Tech Computer Science student. I'm always seeking
+                new opportunities to learn and develop skills, striving to give my
+                best effort. I'm passionate about DSA and Web Development.
+              </p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">
+                  Skills
+                </p>
+                <!-- <p class="links">Experience</p> -->
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>Languages</span><br />C,C++</li>
+                  <li><span>Web Tools</span><br />HTML,CSS,Javascript</li>
+                  <li>
+                    <span>Core Skills</span><br />Problem Solving,Data structures
+                  </li>
+                  <li>
+                    <span>Softwares</span><br />Visual Studio Code,Git,GitHub
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li>
+                    <span>2021-Present</span><br />Btech-CSE from Jaypee Institute of Information Technology , Noida<br />
+                  </li>
+                  <li>
+                    <span>2021</span><br />Intermediate from Modern School,Noida
+                    <br />95.2%
+                  </li>
+                  <li>
+                    <span>2019</span><br />High School from Modern School,Noida
+                    <br />94.1%
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!----   Services              ------>
+    <div id="services">
+
+
+
+        <div class="container">
+            <h1 class="sub-title">My Project</h1>
+            <div class="services-list">
+                <div>
+                    <h2>
+                        Telegram bot
+
+                    </h2>
+                    <p>
+                        Bolo Suvigya Bot is a Telegram Bot built to help students stay tuned with their college's timetable. Its can be used to stay updated with college timetable and never miss an important lecture or class.
+                    </p>
+                    <a href="https://github.com/atinder11/Bolo_Suvigya">learn more</a>
+                </div>
+                <div>
+                    <h2>
+                        Fitness Website
+
+                    </h2>
+                    <p>
+                        fitness website, where we are dedicated to helping you achieve your health and wellness goals. Whether you're a beginner looking to kickstart your fitness journey or an experienced athlete aiming for peak performance, we have the resources and information to support you every step of the way
+                    </p>
+                    <a href="https://github.com/atinder11/Atinder-fitness">learn more</a>
+                </div>
+                <diV>
+
+
+                    <h2>
+                        Temperature Converter
+
+                    </h2>
+                    <p>
+                        Temperature Converter website, your go-to destination for quickly and easily converting temperatures between different units. Whether you're traveling to a different country, working on a science project, or simply curious about temperature conversions, our website has you covered.
+                    </p>
+                    <a href="https://github.com/atinder11/Temperature_Converter ">learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!---                        contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tilte">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>atinderk71@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>98210XXXXX</p>
+                    <p><i class="fa-solid fa-phone"></i>Links:</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/atinder-kumar/"><i class="fa-brands fa-linkedin">Linkedin</i></a>
+                        <a href="https://github.com/atinder11">Github<i class="fa-brands fa-github"></i></a>
+                    </div>
+                
+
+                </div>
+                <!----
+                <a href="" class="btn btn2">Download CV</a> -->
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright ©  Atinder.</a> Made with ❤️ </p>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "DSA Enthusiast","Open-Source Contributor","Learner"],
+        typeSpeed: 80,
+      });
+    </script>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+          for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+          }
+          for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+        }
+      </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxZLjd6Xs032tTfVadXp9QGA2urAL5wKAvHoAll60vpV4dNKbSzWdMtG7D6SVce9JYQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000);
+        form.reset();
+    })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+
+
+</body>
+
+</html>
